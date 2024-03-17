@@ -14,7 +14,7 @@ class ConsoleAdapter(Adapter):
 
     async def listen(self) -> str:
         user_input = input("User用户：")
-        event_type_temp = input("\r请选择场景：1.群聊 2.私聊\n".format,end="")
+        event_type_temp = input("\r请选择场景：1.群聊 2.私聊\n")
         if event_type_temp == "1":
             event_type = "group"
         elif event_type_temp == "2":
