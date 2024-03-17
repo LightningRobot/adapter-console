@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lightningrobot-adapter-console"
-version = "0.2.1"
+version = "0.2.2"
 description = "闪电机器人控制台适配器。"
 authors = ["Zhihan <zhihan2727@hotmail.com>"]
 readme = "README.md"

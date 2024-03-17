@@ -1,7 +1,7 @@
 from lightningrobot.adapter import Adapter
 from lightningrobot import log
 
-class ConsoleAdapter(Adapter):
+class Main(Adapter):
     async def connect(self,list) -> None:
         await log.info("已加载-ConsoleAdapter")
         pass
